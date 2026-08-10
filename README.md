@@ -25,7 +25,7 @@ DAX: KPI measures, transaction metrics, customer metrics and trend calculations
 Figma: Dashboard UI/background design
 Excel: Data preparation and validation
 
-# ***SQL Analysis:***
+## ***SQL Analysis***
 
 The SQL analysis was divided into five major analytical areas.
 
@@ -104,7 +104,7 @@ Analyzed payment performance to understand successful and unsuccessful transacti
 
 This analysis was used to identify opportunities for improving payment reliability and transaction recovery.
 
-# ***Power BI Dashboard***
+## ***Power BI Dashboard***
 
 The SQL analysis was translated into an interactive Power BI dashboard.
 
@@ -153,7 +153,7 @@ The dashboard interface was designed with a focus on:
 
 **Figma** was used to support the dashboard's visual/UI design.
 
-# ***Key Analytical Insights***
+## ***Key Analytical Insights***
 
 The analysis focused on identifying patterns across four major dimensions:
 
@@ -169,7 +169,7 @@ Compared service-level transaction activity and identified opportunities to incr
 **Payments**
 Analyzed successful and failed payment behavior to identify potential opportunities for improving payment reliability and recovery.
 
-# ***Recommendations***
+## ***Recommendations***
 
 Based on the analysis, the following product opportunities were identified:
 
@@ -213,7 +213,7 @@ Use weekday/weekend and time-based transaction patterns to optimize campaign tim
 
 **Potential impact:** Improve campaign relevance and increase engagement.
 
-# ***Project Outcome***
+## ***Project Outcome***
 
 This project demonstrates an end-to-end analytics workflow:
 
