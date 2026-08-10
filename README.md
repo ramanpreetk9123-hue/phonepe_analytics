@@ -1,8 +1,8 @@
-**PhonePe Transaction & Product Analytics**
+## **PhonePe Transaction & Product Analytics**
 
 An end-to-end **Data & Product Analytics** project using **MySQL and Power BI** to analyze PhonePe transaction, customer, service and payment data and translate the analysis into actionable product recommendations.
 
-## 🎯 Project Overview
+**Project Overview**
 
 The objective of this project was to understand transaction and customer behavior across the PhonePe ecosystem and identify opportunities to improve:
 
@@ -17,7 +17,7 @@ The project follows an end-to-end analytics workflow:
 
 **Data → SQL Analysis → Power BI Dashboard → Insights → Product Recommendations**
 
-## 🛠️ Tools & Technologies
+**Tools & Technologies**
 
 **| Tool | Usage |**
 | MySQL| Data import, validation, transformation and analysis, Aggregations, filtering, grouping, joins, duplicate checks and trend analysis |
@@ -26,15 +26,15 @@ The project follows an end-to-end analytics workflow:
 | Figma | Dashboard UI/background design |
 | Excel| Data preparation and validation |
 
-# 🗄️ SQL Analysis
+**SQL Analysis**
 
 The SQL analysis was divided into five major analytical areas.
 
-## 1. Data Validation
+**1. Data Validation**
 
 Before performing the analysis, the dataset was validated for data quality and consistency.
 
-### Checks performed:
+**Checks performed:**
 
 - Total user count
 - Total transaction count
@@ -44,11 +44,11 @@ Before performing the analysis, the dataset was validated for data quality and c
 - Blank values across important fields
 - Basic dataset consistency checks
 
-## 2. Transaction Analysis
+**2. Transaction Analysis**
 
 Analyzed transaction behavior to understand overall transaction activity and trends.
 
-### Analysis included:
+**Analysis included:**
 
 - Total transaction volume
 - Total transaction value
@@ -61,11 +61,11 @@ Analyzed transaction behavior to understand overall transaction activity and tre
 - Weekday vs. weekend transaction patterns
 - Transaction distribution across users
 
-## 3. Customer Analysis
+**3. Customer Analysis**
 
 Analyzed customer-level transaction behavior to understand how different users interact with the platform.
 
-### Analysis included:
+**Analysis included:**
 
 - Total transactions per customer
 - Total transaction value per customer
@@ -81,11 +81,11 @@ This analysis helped distinguish between:
 
 which can have different product and engagement opportunities.
 
-## 4. Service Analysis
+**4. Service Analysis**
 
 Analyzed transaction behavior across different PhonePe services.
 
-### Analysis included:
+**Analysis included:**
 
 - Service-wise transaction volume
 - Service-wise transaction value
@@ -95,11 +95,11 @@ Analyzed transaction behavior across different PhonePe services.
 
 The objective was to identify which services contribute most strongly to overall user activity and where additional adoption opportunities may exist.
 
-## 5. Payment Analysis
+**5. Payment Analysis**
 
 Analyzed payment performance to understand successful and unsuccessful transaction behavior.
 
-### Analysis included:
+**Analysis included:**
 
 - Payment status distribution
 - Successful transactions
@@ -109,11 +109,11 @@ Analyzed payment performance to understand successful and unsuccessful transacti
 
 This analysis was used to identify opportunities for improving payment reliability and transaction recovery.
 
-# 📊 Power BI Dashboard
+**Power BI Dashboard**
 
 The SQL analysis was translated into an interactive Power BI dashboard.
 
-### Dashboard Areas
+**Dashboard Areas**
 
 The dashboard provides a consolidated view of:
 
@@ -128,12 +128,11 @@ The dashboard provides a consolidated view of:
 - High-value customers
 - High-frequency customers
 
-# 📐 DAX & Power BI
+**DAX & Power BI**
 
 Power BI was used not only for visualization but also for creating analytical measures and KPIs.
 
-### DAX was used for:
-
+**DAX was used for:**
 - Total transaction calculations
 - Transaction value calculations
 - Customer metrics
@@ -146,7 +145,7 @@ Power BI was used not only for visualization but also for creating analytical me
 
 The dashboard was designed to allow users to move from **high-level KPIs → trends → customer/service/payment-level insights**.
 
-# 🎨 Dashboard Design
+**Dashboard Design**
 
 The dashboard interface was designed with a focus on:
 
@@ -159,39 +158,39 @@ The dashboard interface was designed with a focus on:
 
 **Figma** was used to support the dashboard's visual/UI design.
 
-# 🔍 Key Analytical Insights
+**Key Analytical Insights**
 
 The analysis focused on identifying patterns across four major dimensions:
 
-### Customers
+**Customers**
 Identified differences between high-frequency and high-value customers and analyzed individual customer transaction behavior.
 
-### Transactions
+**Transactions**
 Analyzed transaction volume, transaction value and changes over time to understand overall transaction activity.
 
-### Services
+**Services**
 Compared service-level transaction activity and identified opportunities to increase adoption of lower-performing services.
 
-### Payments
+**Payments**
 Analyzed successful and failed payment behavior to identify potential opportunities for improving payment reliability and recovery.
 
-# 💡 Recommendations
+**Recommendations**
 
 Based on the analysis, the following product opportunities were identified:
 
-### 1. Improve Failed Payment Recovery
+**1. Improve Failed Payment Recovery**
 
 Introduce clearer retry flows and contextual prompts for users experiencing failed transactions.
 
 **Potential impact:** Reduce transaction drop-offs and recover otherwise lost transactions.
 
-### 2. Increase Adoption of Lower-Usage Services
+**2. Increase Adoption of Lower-Usage Services**
 
 Use personalized recommendations to promote relevant PhonePe services to users who primarily use only one or two services.
 
 **Potential impact:** Increase cross-service adoption and customer engagement.
 
-### 3. Target High-Value Customers
+**3. Target High-Value Customers**
 
 Create differentiated engagement strategies for customers with high transaction value or high transaction frequency.
 
@@ -202,7 +201,7 @@ Potential initiatives could include:
 - Loyalty-based incentives
 - Priority support experiences
 
-### 4. Increase Repeat Usage
+**4. Increase Repeat Usage**
 
 Identify customers with declining or infrequent activity and use targeted communication to encourage repeat transactions.
 
@@ -213,14 +212,14 @@ Potential strategies include:
 - Service discovery campaigns
 - Behavioral segmentation
 
-### 5. Optimize Engagement Around Usage Patterns
+**5. Optimize Engagement Around Usage Patterns**
 
 Use weekday/weekend and time-based transaction patterns to optimize campaign timing and user communication.
 
 **Potential impact:** Improve campaign relevance and increase engagement.
 
 
-# 🚀 Project Outcome
+**Project Outcome**
 
 This project demonstrates an end-to-end analytics workflow:
 
