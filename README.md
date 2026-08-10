@@ -1,8 +1,8 @@
-## **PhonePe Transaction & Product Analytics**
+# **PhonePe Transaction & Product Analytics**
 
 An end-to-end **Data & Product Analytics** project using **MySQL and Power BI** to analyze PhonePe transaction, customer, service and payment data and translate the analysis into actionable product recommendations.
 
-# ***Project Overview***
+## ***Project Overview***
 
 The objective of this project was to understand transaction and customer behavior across the PhonePe ecosystem and identify opportunities to improve:
 
